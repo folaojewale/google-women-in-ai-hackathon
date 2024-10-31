@@ -1,0 +1,48 @@
+.layout-details {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(2, 2, 2, 0.1);
+    font-family: 'Lucida Sans Unicode';
+    background: #ffffff;
+    width: 500px;
+  }
+  
+  
+  .flag {
+    margin-right: 20px;
+    max-width: 120px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  }
+  
+  .flag img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info {
+    flex: 1;
+  }
+  
+  .info p {
+    margin: 5px 0;
+    
+  }
+  .info strong {
+      color: #c73cbb;
+  }
+  
+  
+  
+ 
+  
+  
+  .message{
+    position: relative;
+    top: 18%;
+    left: 45%;
+    text-align: center;
+  }

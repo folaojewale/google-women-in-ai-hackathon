@@ -1,0 +1,78 @@
+
+
+  
+  form {
+    max-width: 281px;
+    background: #ffffff;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: var(--primary);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  
+    button[type="submit"] {
+      background-color: var(--buttonColor);
+      color: #ffffff;
+      width: 55px;
+      height: 40px;
+      font-size: 16px;
+      position: relative;
+      padding-left: 0px;
+      background-color: #c73cbb;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      right: 5%;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+  
+    input[type="text"] {
+      border: 0px solid #ffffff;
+      font-size: 24px;
+      width: 200px;
+      background-color: #ffffff;
+      outline: none;
+    }
+  
+    .title{
+      position: relative;
+      text-align: center;
+      color: var(--lightText);
+    }
+
+    .searchBox{
+      text-align: center; 
+      padding: 8px; 
+      display: flex;
+      justify-self: center;
+    }
+
+
+     
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  
+  
+  
+  button[type="submit"]:hover {
+    background-color: #a11696;
+  }
+
+  

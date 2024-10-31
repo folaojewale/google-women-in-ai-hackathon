@@ -1,0 +1,55 @@
+.quote-info {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 8px;
+    position: relative;
+    top: 40px;
+    left: 80%;
+    border-color: var(--primary);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+    transform: translateX(-50%);
+    z-index: 0;
+    display: flex;
+}
+
+/* Hide scrollbar */
+.quote-info::-webkit-scrollbar, .lquote-info::-webkit-scrollbar {
+    display: none;
+}
+
+.layout-details span:hover{
+    color: var(--secondary);
+}
+
+.aiBoxleft{
+    position: relative;
+    right: 100px;
+}
+
+.lquote-info {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 200px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 8px;
+    position: relative;
+    bottom: 116px;
+    left: 20%;
+    border-color: var(--primary);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+    transform: translateX(-50%);
+    z-index: 1;
+    display: inline-flex;
+}
